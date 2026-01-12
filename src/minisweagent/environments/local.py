@@ -9,7 +9,7 @@ from typing import Any
 class LocalEnvironmentConfig:
     cwd: str = ""
     env: dict[str, str] = field(default_factory=dict)
-    timeout: int = 30
+    timeout: int = 600
 
 
 class LocalEnvironment:
